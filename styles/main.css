@@ -1,0 +1,23 @@
+table, th, td {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse; /* Merges adjacent borders into a single line */
+    width: 100%;
+    margin: 8px;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+#tag, #gfata, #lflta, #ita, #eta {
+    border: 0px;
+}
+.btns1_4, #e_btn5, #e_btnplus, #i_btn5{
+    margin-left: 8px;
+}
+a{
+    text-decoration: none;
+    color: midnightblue;
+    display: flex;
+}
