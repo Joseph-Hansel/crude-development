@@ -1,3 +1,10 @@
+.texturina-body {
+  font-family: "Texturina", serif;
+  font-optical-sizing: auto;
+  font-weight: 250;
+  font-style: normal;
+}
+
 body{
     background-color: #cfd1c6cd;
     background-image: url(../assets/images/bck2.png);
@@ -6,13 +13,20 @@ body{
     background-size: cover;
     color: #cfd1c6cd;
     margin: 0px;
+    font-family: "Texturina", serif;
 }
 header{
     background-color: #163C3C;
     padding-top: 10px;
 }
+nav{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
 main{
     margin: 20px;
+    font-size: 20px;
 }
 .title{
     text-align: center;
@@ -50,10 +64,12 @@ a{
     text-decoration: none;
     color: #6F732F;
     color: #7f8432;
-    display: flex;
 }
 a:hover{
     color: #A27035;
     color: #a26f3597;
+}
+.flinks{
+    display: flex;
 }
 
