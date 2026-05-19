@@ -7,7 +7,7 @@
 
 body{
     background-color: #cfd1c6cd;
-    background-image: url(../assets/images/bck2.png);
+    background-image: url(../public/assets/images/bck2.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
