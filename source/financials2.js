@@ -4,7 +4,7 @@ addToDatabase = () => {
 
     newRecord.id = records.length;
 
-    fetch("http://localhost:3000/transactions", {
+    fetch("http://localhost:3002/transactions", {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(newRecord)
@@ -15,7 +15,7 @@ addToDatabase = () => {
 
 removeFromDatabase = (id) => {
 
-    fetch(`http://localhost:3000/transactions/${id}`, {
+    fetch(`http://localhost:3002/transactions/${id}`, {
         method: 'DELETE',
         headers: { 'Content-Type': 'application/json' }
     })
