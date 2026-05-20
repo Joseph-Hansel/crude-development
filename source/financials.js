@@ -1,3 +1,5 @@
+// let newestIndex = 0;
+
 let balance = 0
 
 
@@ -42,7 +44,10 @@ function addRow(table, item, balance, index) {
 
   const btn = document.createElement("button");
   btn.textContent = "-";
-  btn.onclick = () => removeRecord(index);
+  btn.onclick = () => {
+    removeFromDatabase(records[index].id);
+    removeRecord(index);
+};
 
   amountCell.appendChild(btn);
 
@@ -103,6 +108,8 @@ function addToExpenditure(){
         expndInput.value = "";
         eExplnInput.value = "";
 
+        addToDatabase();
+
     }else{
         alert("Please fill in both the value and explanation")
     }
@@ -130,6 +137,9 @@ function addToIncome(){
         renderTables();
         incInput.value = "";
         iExplnInput.value = "";
+
+        addToDatabase();
+
     }else{
         alert("Please fill in both the value and explanation")
     }
