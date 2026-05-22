@@ -24,6 +24,10 @@ nav{
     font-size: 20px;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 3vw;
+}
+.nav-link{
+    padding: 1vw;;
 }
 main{
     margin: 20px;
@@ -32,6 +36,10 @@ main{
 .title{
     text-align: center;
     color: #64682f;
+    color: #64682f85;
+    color: #928c86;
+    color: #7f8432;
+    color: #7f8432c0;
 }
 table, th, td {
     border: 1px solid #f1fffa8f;
@@ -69,8 +77,35 @@ a{
 a:hover{
     color: #A27035;
     color: #a26f3597;
+    color: #cfd1c6cd;
+    color: #928c86;
 }
 .flinks{
     display: flex;
 }
 
+
+
+
+#widget-container{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 20vw;
+    gap: 2vw;
+    grid-template-areas: 
+        "widget2 widget1 widget1 widget3"
+        "widget2 widget4 widget5 widget6"
+        "widget7 widget7 widget5 widget6"
+        "widget8 widget8 widget5 widget6"
+        "widget9 widget9 widget9 widget6";
+}
+
+.widgets{
+    background-color: black;
+    background-color: #163C3C;
+    padding: 2vw;
+    border-radius: 2vw;
+    text-align: center;
+    align-content: center;
+}
