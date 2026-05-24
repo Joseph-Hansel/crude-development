@@ -11,7 +11,7 @@ generateWidgets = () => {
     const widget2 = document.createElement('div');
     widget2.style.gridArea = "widget2";
     widget2.className = 'widgets';
-    widget2.style.backgroundImage = "url('./public/assets/images/bck3.png')";
+    widget2.style.backgroundImage = "url('public/assets/images/bck3.png')";
     widget2.style.backgroundSize = "cover";
     widgetContainer.appendChild(widget2);
 
@@ -32,7 +32,7 @@ generateWidgets = () => {
     const widget5 = document.createElement('div');
     widget5.style.gridArea = "widget5";
     widget5.className = 'widgets';
-    widget5.style.backgroundImage = "url('./public/assets/images/bck2.png')";
+    widget5.style.backgroundImage = "url('public/assets/images/bck2.png')";
     widget5.style.backgroundSize = "cover";
     widgetContainer.appendChild(widget5);   
 
@@ -65,4 +65,5 @@ generateWidgets = () => {
 
 generateWidgets();
 
-// ertyujhdfytxgxbcvpsti8765edfghjkmnbvc
+
+// Why is this not working?
