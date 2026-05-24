@@ -94,10 +94,10 @@ a:hover{
         "widget1 widget2"
         "widget3 widget2"
         "widget4 widget2"
-        "widget5 widget6"
-        "widget5 widget7"
         "widget5 widget8"
-        "widget5 widget9";
+        "widget5 widget7"
+        "widget5 widget9"
+        "widget5 widget6";
 }
 
 @media (min-width: 600px){
