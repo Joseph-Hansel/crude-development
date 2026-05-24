@@ -95,10 +95,12 @@ a:hover{
     gap: 2vw;
     grid-template-areas: 
         "widget1 widget2 "
-        "widget3 widget4 "
-        "widget6 widget5 "
-        "widget8 widget7 "
-        "widget9 widget9 ";
+        "widget3 widget2 "
+        "widget4 widget2 "
+        "widget5 widget6 "
+        "widget5 widget7 "
+        "widget5 widget8 "
+        "widget5 widget9 ";
 }
 
 @media (min-width: 600px){
