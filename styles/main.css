@@ -139,4 +139,5 @@ a:hover{
     border-radius: 2vw;
     text-align: center;
     align-content: center;
+    overflow: auto;
 }
